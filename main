@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Сайт</title>
+ </head>
+ <body>
+<h2>Дизайн сайту</h2>
+<form method="post" action="program">
+<p><b>Переважна палітра кольорів:</b></p>
+<p><input type="radio"  > Яскраві кольори</p>
+  <p><input type="radio" > Пастельні кольори</p>
+
+<p><b>Хотіли б бачити у себе на сайті ці кольори (позначте галочкою, якщо "так"):</b></p>
+<p><input type="checkbox">Білий</p>
+  <p><input type="checkbox">Чорний </p>
+  <p><input type="checkbox">Фіолетовий</p>
+  <p><input type="checkbox">Жовтий</p>
+  <p><input type="checkbox">Червоний</p>
+<p><b>Вкажіть основний колір:</b>
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000"></p>
+  <p><input type="submit" value="Замовити"></p>
+</form>
+ </body>
+</html>
